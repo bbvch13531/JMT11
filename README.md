@@ -6,6 +6,8 @@
 
 <p>메인화면</p>
 
+</br></br>
+
 <image src="Images/JMT_in_map.png"/>
 
 <p>지도 기반의 맛집 화면</p>
