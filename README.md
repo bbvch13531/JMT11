@@ -51,14 +51,6 @@
 </br></br></br></br>
 
 <div align="center">
-<image height="700" src="Images/my_JMT.png"/>
-<p>내 장소</p>
-</div>
-사용자의 프로필 정보와 작성한 포스트, 내 맛집 지도, 저장한 맛집, 북마크를 보여줌.
-
-</br></br></br></br>
-
-<div align="center">
 <image height="700" src="Images/written_posts.png"/>
 <p>작성한 포스트</p>
 </div>
