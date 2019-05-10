@@ -103,6 +103,7 @@
 				9FE4BFFD2280B6CB007BA2EB /* Sources */,
 				9FE4BFFE2280B6CB007BA2EB /* Frameworks */,
 				9FE4BFFF2280B6CB007BA2EB /* Resources */,
+				322A76EC8F5DB629297A838B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		322A76EC8F5DB629297A838B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMT11/Pods-JMT11-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMT11/Pods-JMT11-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMT11/Pods-JMT11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E2E9B8F29C85A79716476F2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
