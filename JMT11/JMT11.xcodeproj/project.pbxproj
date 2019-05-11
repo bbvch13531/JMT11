@@ -7,103 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FE4C0052280B6CB007BA2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4C0042280B6CB007BA2EB /* AppDelegate.swift */; };
-		9FE4C0072280B6CB007BA2EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4C0062280B6CB007BA2EB /* ViewController.swift */; };
-		9FE4C00A2280B6CB007BA2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE4C0082280B6CB007BA2EB /* Main.storyboard */; };
-		9FE4C00D2280B6CB007BA2EB /* JMT11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4C00B2280B6CB007BA2EB /* JMT11.xcdatamodeld */; };
-		9FE4C00F2280B6CC007BA2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE4C00E2280B6CC007BA2EB /* Assets.xcassets */; };
-		9FE4C0122280B6CC007BA2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE4C0102280B6CC007BA2EB /* LaunchScreen.storyboard */; };
-		EB16F094C6A3545D62D43AE1 /* Pods_JMT11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE104E4F85E16CF417823DDF /* Pods_JMT11.framework */; };
+		99342489959D06447085FD2A /* libPods-JMT11.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B711230CC2908B2DE37152 /* libPods-JMT11.a */; };
+		9F6B8A122285DBEA003841D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B8A112285DBEA003841D9 /* AppDelegate.swift */; };
+		9F6B8A142285DBEA003841D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B8A132285DBEA003841D9 /* ViewController.swift */; };
+		9F6B8A172285DBEA003841D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B8A152285DBEA003841D9 /* Main.storyboard */; };
+		9F6B8A1A2285DBEA003841D9 /* JMT11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B8A182285DBEA003841D9 /* JMT11.xcdatamodeld */; };
+		9F6B8A1C2285DBEB003841D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B8A1B2285DBEB003841D9 /* Assets.xcassets */; };
+		9F6B8A1F2285DBEB003841D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B8A1D2285DBEB003841D9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5945713EF843CDFBABC9FF88 /* Pods-JMT11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.release.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.release.xcconfig"; sourceTree = "<group>"; };
-		784EAF95F30D0F9E52412ABA /* Pods-JMT11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.debug.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.debug.xcconfig"; sourceTree = "<group>"; };
-		9FE4C0012280B6CB007BA2EB /* JMT11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMT11.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FE4C0042280B6CB007BA2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FE4C0062280B6CB007BA2EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9FE4C0092280B6CB007BA2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FE4C00C2280B6CB007BA2EB /* JMT11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JMT11.xcdatamodel; sourceTree = "<group>"; };
-		9FE4C00E2280B6CC007BA2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9FE4C0112280B6CC007BA2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9FE4C0132280B6CC007BA2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE104E4F85E16CF417823DDF /* Pods_JMT11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMT11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AABEBB39C75417D1D89D8ED /* Pods-JMT11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.release.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.release.xcconfig"; sourceTree = "<group>"; };
+		9F6B8A0E2285DBEA003841D9 /* JMT11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMT11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B8A112285DBEA003841D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6B8A132285DBEA003841D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F6B8A162285DBEA003841D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6B8A192285DBEA003841D9 /* JMT11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JMT11.xcdatamodel; sourceTree = "<group>"; };
+		9F6B8A1B2285DBEB003841D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6B8A1E2285DBEB003841D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6B8A202285DBEB003841D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B711230CC2908B2DE37152 /* libPods-JMT11.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMT11.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAEB529C7B293E4F8F0A01C /* Pods-JMT11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.debug.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FE4BFFE2280B6CB007BA2EB /* Frameworks */ = {
+		9F6B8A0B2285DBEA003841D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB16F094C6A3545D62D43AE1 /* Pods_JMT11.framework in Frameworks */,
+				99342489959D06447085FD2A /* libPods-JMT11.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43420376044019FD953C48D3 /* Pods */ = {
+		9F6B8A052285DBE9003841D9 = {
 			isa = PBXGroup;
 			children = (
-				784EAF95F30D0F9E52412ABA /* Pods-JMT11.debug.xcconfig */,
-				5945713EF843CDFBABC9FF88 /* Pods-JMT11.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		562A1DF6182D1AFEFFBE9A12 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FE104E4F85E16CF417823DDF /* Pods_JMT11.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9FE4BFF82280B6CB007BA2EB = {
-			isa = PBXGroup;
-			children = (
-				9FE4C0032280B6CB007BA2EB /* JMT11 */,
-				9FE4C0022280B6CB007BA2EB /* Products */,
-				43420376044019FD953C48D3 /* Pods */,
-				562A1DF6182D1AFEFFBE9A12 /* Frameworks */,
+				9F6B8A102285DBEA003841D9 /* JMT11 */,
+				9F6B8A0F2285DBEA003841D9 /* Products */,
+				C9635517C3B137A05A27A62D /* Pods */,
+				DBF7083278064B2C759702C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9FE4C0022280B6CB007BA2EB /* Products */ = {
+		9F6B8A0F2285DBEA003841D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FE4C0012280B6CB007BA2EB /* JMT11.app */,
+				9F6B8A0E2285DBEA003841D9 /* JMT11.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FE4C0032280B6CB007BA2EB /* JMT11 */ = {
+		9F6B8A102285DBEA003841D9 /* JMT11 */ = {
 			isa = PBXGroup;
 			children = (
-				9FE4C0042280B6CB007BA2EB /* AppDelegate.swift */,
-				9FE4C0062280B6CB007BA2EB /* ViewController.swift */,
-				9FE4C0082280B6CB007BA2EB /* Main.storyboard */,
-				9FE4C00E2280B6CC007BA2EB /* Assets.xcassets */,
-				9FE4C0102280B6CC007BA2EB /* LaunchScreen.storyboard */,
-				9FE4C0132280B6CC007BA2EB /* Info.plist */,
-				9FE4C00B2280B6CB007BA2EB /* JMT11.xcdatamodeld */,
+				9F6B8A112285DBEA003841D9 /* AppDelegate.swift */,
+				9F6B8A132285DBEA003841D9 /* ViewController.swift */,
+				9F6B8A152285DBEA003841D9 /* Main.storyboard */,
+				9F6B8A1B2285DBEB003841D9 /* Assets.xcassets */,
+				9F6B8A1D2285DBEB003841D9 /* LaunchScreen.storyboard */,
+				9F6B8A202285DBEB003841D9 /* Info.plist */,
+				9F6B8A182285DBEA003841D9 /* JMT11.xcdatamodeld */,
 			);
 			path = JMT11;
+			sourceTree = "<group>";
+		};
+		C9635517C3B137A05A27A62D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEB529C7B293E4F8F0A01C /* Pods-JMT11.debug.xcconfig */,
+				3AABEBB39C75417D1D89D8ED /* Pods-JMT11.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBF7083278064B2C759702C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B711230CC2908B2DE37152 /* libPods-JMT11.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FE4C0002280B6CB007BA2EB /* JMT11 */ = {
+		9F6B8A0D2285DBEA003841D9 /* JMT11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FE4C0162280B6CC007BA2EB /* Build configuration list for PBXNativeTarget "JMT11" */;
+			buildConfigurationList = 9F6B8A232285DBEB003841D9 /* Build configuration list for PBXNativeTarget "JMT11" */;
 			buildPhases = (
-				E2E9B8F29C85A79716476F2C /* [CP] Check Pods Manifest.lock */,
-				9FE4BFFD2280B6CB007BA2EB /* Sources */,
-				9FE4BFFE2280B6CB007BA2EB /* Frameworks */,
-				9FE4BFFF2280B6CB007BA2EB /* Resources */,
-				322A76EC8F5DB629297A838B /* [CP] Embed Pods Frameworks */,
+				A90E6AC35E6D402BD581016D /* [CP] Check Pods Manifest.lock */,
+				9F6B8A0A2285DBEA003841D9 /* Sources */,
+				9F6B8A0B2285DBEA003841D9 /* Frameworks */,
+				9F6B8A0C2285DBEA003841D9 /* Resources */,
+				757C768B219A23C218B22805 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,25 +110,25 @@
 			);
 			name = JMT11;
 			productName = JMT11;
-			productReference = 9FE4C0012280B6CB007BA2EB /* JMT11.app */;
+			productReference = 9F6B8A0E2285DBEA003841D9 /* JMT11.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9FE4BFF92280B6CB007BA2EB /* Project object */ = {
+		9F6B8A062285DBE9003841D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "KyungYoung Heo";
 				TargetAttributes = {
-					9FE4C0002280B6CB007BA2EB = {
-						CreatedOnToolsVersion = 10.1;
+					9F6B8A0D2285DBEA003841D9 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9FE4BFFC2280B6CB007BA2EB /* Build configuration list for PBXProject "JMT11" */;
+			buildConfigurationList = 9F6B8A092285DBE9003841D9 /* Build configuration list for PBXProject "JMT11" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,31 +136,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 9FE4BFF82280B6CB007BA2EB;
-			productRefGroup = 9FE4C0022280B6CB007BA2EB /* Products */;
+			mainGroup = 9F6B8A052285DBE9003841D9;
+			productRefGroup = 9F6B8A0F2285DBEA003841D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FE4C0002280B6CB007BA2EB /* JMT11 */,
+				9F6B8A0D2285DBEA003841D9 /* JMT11 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FE4BFFF2280B6CB007BA2EB /* Resources */ = {
+		9F6B8A0C2285DBEA003841D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE4C0122280B6CC007BA2EB /* LaunchScreen.storyboard in Resources */,
-				9FE4C00F2280B6CC007BA2EB /* Assets.xcassets in Resources */,
-				9FE4C00A2280B6CB007BA2EB /* Main.storyboard in Resources */,
+				9F6B8A1F2285DBEB003841D9 /* LaunchScreen.storyboard in Resources */,
+				9F6B8A1C2285DBEB003841D9 /* Assets.xcassets in Resources */,
+				9F6B8A172285DBEA003841D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		322A76EC8F5DB629297A838B /* [CP] Embed Pods Frameworks */ = {
+		757C768B219A23C218B22805 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +177,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMT11/Pods-JMT11-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2E9B8F29C85A79716476F2C /* [CP] Check Pods Manifest.lock */ = {
+		A90E6AC35E6D402BD581016D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,31 +202,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9FE4BFFD2280B6CB007BA2EB /* Sources */ = {
+		9F6B8A0A2285DBEA003841D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE4C00D2280B6CB007BA2EB /* JMT11.xcdatamodeld in Sources */,
-				9FE4C0072280B6CB007BA2EB /* ViewController.swift in Sources */,
-				9FE4C0052280B6CB007BA2EB /* AppDelegate.swift in Sources */,
+				9F6B8A1A2285DBEA003841D9 /* JMT11.xcdatamodeld in Sources */,
+				9F6B8A142285DBEA003841D9 /* ViewController.swift in Sources */,
+				9F6B8A122285DBEA003841D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9FE4C0082280B6CB007BA2EB /* Main.storyboard */ = {
+		9F6B8A152285DBEA003841D9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9FE4C0092280B6CB007BA2EB /* Base */,
+				9F6B8A162285DBEA003841D9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9FE4C0102280B6CC007BA2EB /* LaunchScreen.storyboard */ = {
+		9F6B8A1D2285DBEB003841D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9FE4C0112280B6CC007BA2EB /* Base */,
+				9F6B8A1E2285DBEB003841D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -235,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9FE4C0142280B6CC007BA2EB /* Debug */ = {
+		9F6B8A212285DBEB003841D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,14 +288,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9FE4C0152280B6CC007BA2EB /* Release */ = {
+		9F6B8A222285DBEB003841D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,6 +343,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -351,14 +351,16 @@
 			};
 			name = Release;
 		};
-		9FE4C0172280B6CC007BA2EB /* Debug */ = {
+		9F6B8A242285DBEB003841D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 784EAF95F30D0F9E52412ABA /* Pods-JMT11.debug.xcconfig */;
+			baseConfigurationReference = FAAEB529C7B293E4F8F0A01C /* Pods-JMT11.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZMC86H7GX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JMT11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,14 +372,16 @@
 			};
 			name = Debug;
 		};
-		9FE4C0182280B6CC007BA2EB /* Release */ = {
+		9F6B8A252285DBEB003841D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5945713EF843CDFBABC9FF88 /* Pods-JMT11.release.xcconfig */;
+			baseConfigurationReference = 3AABEBB39C75417D1D89D8ED /* Pods-JMT11.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZMC86H7GX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JMT11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,20 +396,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FE4BFFC2280B6CB007BA2EB /* Build configuration list for PBXProject "JMT11" */ = {
+		9F6B8A092285DBE9003841D9 /* Build configuration list for PBXProject "JMT11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FE4C0142280B6CC007BA2EB /* Debug */,
-				9FE4C0152280B6CC007BA2EB /* Release */,
+				9F6B8A212285DBEB003841D9 /* Debug */,
+				9F6B8A222285DBEB003841D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FE4C0162280B6CC007BA2EB /* Build configuration list for PBXNativeTarget "JMT11" */ = {
+		9F6B8A232285DBEB003841D9 /* Build configuration list for PBXNativeTarget "JMT11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FE4C0172280B6CC007BA2EB /* Debug */,
-				9FE4C0182280B6CC007BA2EB /* Release */,
+				9F6B8A242285DBEB003841D9 /* Debug */,
+				9F6B8A252285DBEB003841D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -413,17 +417,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9FE4C00B2280B6CB007BA2EB /* JMT11.xcdatamodeld */ = {
+		9F6B8A182285DBEA003841D9 /* JMT11.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9FE4C00C2280B6CB007BA2EB /* JMT11.xcdatamodel */,
+				9F6B8A192285DBEA003841D9 /* JMT11.xcdatamodel */,
 			);
-			currentVersion = 9FE4C00C2280B6CB007BA2EB /* JMT11.xcdatamodel */;
+			currentVersion = 9F6B8A192285DBEA003841D9 /* JMT11.xcdatamodel */;
 			path = JMT11.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 9FE4BFF92280B6CB007BA2EB /* Project object */;
+	rootObject = 9F6B8A062285DBE9003841D9 /* Project object */;
 }
