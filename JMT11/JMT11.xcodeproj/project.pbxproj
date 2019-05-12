@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3AABEBB39C75417D1D89D8ED /* Pods-JMT11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.release.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.release.xcconfig"; sourceTree = "<group>"; };
+		7C9B5EC76FD6418B9DF2685F /* Pods-JMT11.debug(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.debug(development).xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.debug(development).xcconfig"; sourceTree = "<group>"; };
 		9F4A58402286875800196FFF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9F6B8A0E2285DBEA003841D9 /* JMT11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMT11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B8A112285DBEA003841D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		9F6B8A1B2285DBEB003841D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6B8A1E2285DBEB003841D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6B8A202285DBEB003841D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDC49BE22883BEB002B4754 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		C9B711230CC2908B2DE37152 /* libPods-JMT11.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMT11.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAEB529C7B293E4F8F0A01C /* Pods-JMT11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMT11.debug.xcconfig"; path = "Target Support Files/Pods-JMT11/Pods-JMT11.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 		9F6B8A102285DBEA003841D9 /* JMT11 */ = {
 			isa = PBXGroup;
 			children = (
+				9FDC49BE22883BEB002B4754 /* Development.xcconfig */,
 				9F6B8A112285DBEA003841D9 /* AppDelegate.swift */,
 				9F6B8A132285DBEA003841D9 /* ViewController.swift */,
 				9F6B8A1B2285DBEB003841D9 /* Assets.xcassets */,
@@ -79,6 +82,7 @@
 			children = (
 				FAAEB529C7B293E4F8F0A01C /* Pods-JMT11.debug.xcconfig */,
 				3AABEBB39C75417D1D89D8ED /* Pods-JMT11.release.xcconfig */,
+				7C9B5EC76FD6418B9DF2685F /* Pods-JMT11.debug(development).xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -385,6 +389,89 @@
 			};
 			name = Release;
 		};
+		9FDC49BF22883CA4002B4754 /* Debug(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDC49BE22883BEB002B4754 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug(Development)";
+		};
+		9FDC49C022883CA4002B4754 /* Debug(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9B5EC76FD6418B9DF2685F /* Pods-JMT11.debug(development).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZMC86H7GX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JMT11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbvch13531.JMT11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug(Development)";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,6 +479,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F6B8A212285DBEB003841D9 /* Debug */,
+				9FDC49BF22883CA4002B4754 /* Debug(Development) */,
 				9F6B8A222285DBEB003841D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -401,6 +489,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F6B8A242285DBEB003841D9 /* Debug */,
+				9FDC49C022883CA4002B4754 /* Debug(Development) */,
 				9F6B8A252285DBEB003841D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
